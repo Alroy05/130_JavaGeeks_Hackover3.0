@@ -553,7 +553,7 @@ public class Board extends JPanel  implements ActionListener{
 	  
 	  Graphics2D g2d = (Graphics2D) g;
 	  
-	  g2d.setColor(Color.black);
+	  g2d.setColor(Color.blue);
 	  g2d.fillRect(0,0,d.width, d.height);
 	  
 	  doAnim();
